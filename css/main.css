@@ -1,0 +1,36 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: rgba(192, 138, 99, 1);
+    text-align: center;
+    color: white;
+    
+}
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+h1 h2 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+}
+
+.social {
+    weight: 40px;
+    height: 40px;
+}
